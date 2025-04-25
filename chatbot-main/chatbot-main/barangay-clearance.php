@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <a href="barangay-id.php">Barangay ID</a>
             </div>
         </div>
-        <a href="contact.html">About</a>
+        <a href="contact.php">About</a>
         <a href="faq.html">FAQs</a>
     </nav>
 

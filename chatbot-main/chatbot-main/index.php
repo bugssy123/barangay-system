@@ -37,6 +37,7 @@ try {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bucandala 1 | Official Website of Barangay Bucandala 1</title>
+  <base href="/chatbot-main/">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="image/imus-logo.png">
@@ -78,7 +79,7 @@ try {
         <a href="barangay-id.php">Barangay ID</a>
       </div>
     </div>
-    <a href="contact.html">About</a>
+    <a href="contact.php">About</a>
     <a href="faq.html">FAQs</a>
   </nav>
   
@@ -175,7 +176,7 @@ try {
     style="position: fixed; bottom: 10px; right: 10px; width: 340px; height: 800px; border: none; z-index: 999;">
   </iframe>
 
-  <script src="js/index.js"></script>
+  <script src="js/index.js"></script> 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   
 </body>

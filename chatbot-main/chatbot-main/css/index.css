@@ -1,11 +1,11 @@
-body {
+  body {
     height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    background: url('../image/landmark.jpg') no-repeat center center fixed;
+    background: url('../image/landmark.JPG') no-repeat center center fixed;
     background-size: cover;
     background-color: #f9f9f9;
     position: relative;

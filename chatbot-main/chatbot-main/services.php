@@ -88,12 +88,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="#" class="dropbtn">Services ▾</a>
             <div class="dropdown-content">
                 <a href="barangay-clearance.php">Barangay Clearance</a>
-                <a href="certificate-of-indigency.html">Certificate of Indigency</a>
-                <a href="certificate-of-residency.html">Certificate of Residency</a>
+                <a href="certificate-of-indigency.php">Certificate of Indigency</a>
+                <a href="certificate-of-residency.php">Certificate of Residency</a>
                 <a href="barangay-id.php">Barangay ID</a>
             </div>
         </div>
-        <a href="contact.html">About</a>
+        <a href="contact.php">About</a>
         <a href="faq.html">FAQs</a>
     </nav>
 
