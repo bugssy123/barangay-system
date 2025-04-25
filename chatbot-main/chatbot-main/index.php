@@ -57,9 +57,24 @@ try {
         <a href="#" style="color: white;"><i class="fab fa-twitter"></i></a>
         <a href="tel:+464025614" style="color: white;"><i class="fas fa-phone-alt"></i></a>
         <span id="dateTimePH"></span>
-        <a href="index.php?action=logout" style="color: white; margin-left: 20px; text-decoration: underline;">Logout</a>
+        <a href="index.php?action=logout" class="logout-link" onclick="return confirm('Are you sure you want to log out?');">Logout</a>
       </div>
     </div>
+
+  <style>
+    .logout-link {
+      color: #ff4d4d !important;
+      margin-left: 20px;
+      text-decoration: underline;
+      font-weight: bold;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .logout-link:hover {
+      color: #ff0000 !important;
+      text-decoration: none;
+    }
+  </style>
 
   <div style="background-color: #12c009; color: black; font-weight: bold; height: 50px; overflow: hidden; display: flex; align-items: center;">
     <marquee behavior="scroll" direction="left" scrollamount="5" style="width: 100%;">
@@ -78,7 +93,7 @@ try {
         <a href="barangay-id.php">Barangay ID</a>
       </div>
     </div>
-    <a href="contact.html">About</a>
+    <a href="contact.php">About</a>
     <a href="faq.html">FAQs</a>
   </nav>
   

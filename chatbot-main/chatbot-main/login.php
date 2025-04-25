@@ -1,4 +1,4 @@
-<?php
+    <?php
 session_start();
 
 if (isset($_GET['action']) && $_GET['action'] === 'logout') {
@@ -114,6 +114,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
             height: 100%;
             background: rgba(0, 0, 0, 0.5);
             z-index: -1;
+        }
+
+        .logout-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #dc3545;
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 1000;
+        }
+        .logout-link:hover {
+            background-color: #c82333;
+            color: white !important;
+            text-decoration: none;
         }
 
         .login-container {

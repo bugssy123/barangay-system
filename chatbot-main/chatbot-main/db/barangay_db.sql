@@ -45,7 +45,7 @@ CREATE TABLE `barangay_clearance` (
   `email` varchar(100) NOT NULL,
   `shipping_method` varchar(100) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Dumping data for table `barangay_clearance`
@@ -71,7 +71,7 @@ CREATE TABLE `barangay_id_requests` (
   `email` varchar(100) NOT NULL,
   `shipping_method` varchar(50) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Dumping data for table `barangay_id_requests`
@@ -102,7 +102,7 @@ CREATE TABLE `certificate_of_indigency_requests` (
   `email` varchar(100) NOT NULL,
   `shipping_method` varchar(50) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Dumping data for table `certificate_of_indigency_requests`
@@ -131,7 +131,7 @@ CREATE TABLE `certificate_of_residency_requests` (
   `email` varchar(100) NOT NULL,
   `shipping_method` varchar(100) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Dumping data for table `certificate_of_residency_requests`
@@ -155,7 +155,7 @@ CREATE TABLE `users` (
   `username` varchar(100) NOT NULL,
   `password` varchar(255) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Dumping data for table `users`
